@@ -1,0 +1,6 @@
+Novo usuário cadastrado no Flasky
+
+Nome: {{ nome }}
+{% if prontuario %}Prontuário: {{ prontuario }}
+{% endif %}Username: {{ user.username }}
+Email: {{ user.email }}

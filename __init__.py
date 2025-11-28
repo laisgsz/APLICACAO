@@ -1,5 +1,5 @@
-"""Top-level flasky package."""
+from flask import Blueprint
 
-from .app import create_app
+bp = Blueprint('main', __name__)
 
-__all__ = ['create_app']
+from . import views, errors, forms  # noqa: F401
